@@ -14,8 +14,5 @@ variable virtual_network_name {}
 variable address_prefix_test {}
 variable address_space {}
 
-
-# VM
-variable "vm_size" {}
-variable "vm_admin_username" {}
-variable "vm_password" {}
+# Virtual Machine
+variable vm_admin_username {}

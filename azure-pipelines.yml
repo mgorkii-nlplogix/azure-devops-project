@@ -61,9 +61,10 @@ stages:
         provider: 'azurerm'
         command: 'init'
         backendServiceArm: 'azurerm-sc'
-        backendAzureRmResourceGroupName: 'tstate'
-        backendAzureRmStorageAccountName: 'tstate12785'
-        backendAzureRmContainerName: 'tstate'
+        backendServiceArm: 'azure-connector'
+        backendAzureRmResourceGroupName: 'udemy-azure-test'
+        backendAzureRmStorageAccountName: 'uat7754'
+        backendAzureRmContainerName: 'uat'
         backendAzureRmKey: 'terraform.tfstate'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environment/test'
 
@@ -340,10 +341,10 @@ stages:
       inputs:
         provider: 'azurerm'
         command: 'init'
-        backendServiceArm: 'azurerm-sc'
-        backendAzureRmResourceGroupName: 'tstate'
-        backendAzureRmStorageAccountName: 'tstate12785'
-        backendAzureRmContainerName: 'tstate'
+        backendServiceArm: 'azure-connector'
+        backendAzureRmResourceGroupName: 'udemy-azure-test'
+        backendAzureRmStorageAccountName: 'uat7754'
+        backendAzureRmContainerName: 'uat'
         backendAzureRmKey: 'terraform.tfstate'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
 

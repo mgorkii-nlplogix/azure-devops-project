@@ -60,7 +60,6 @@ stages:
       inputs:
         provider: 'azurerm'
         command: 'init'
-        backendServiceArm: 'azurerm-sc'
         backendServiceArm: 'azure-connector'
         backendAzureRmResourceGroupName: 'udemy-azure-test'
         backendAzureRmStorageAccountName: 'uat7754'
